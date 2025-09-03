@@ -1,0 +1,34 @@
+1.Averagedeliverytimeperrestaurant
+
+Massive Performance Disparity: There is a significant variation in delivery times.
+
+Worst Performer: Restaurant R3 is a major problem, with an average delivery time of over 90 minutes. This is likely unacceptable for most customers.
+
+Other Slow Restaurants: R2, R5, R9, and R8 also have long delivery times, ranging from 70 to 80 minutes.
+
+Best Performer: Restaurant R7 is the fastest, with an average time of approximately 45 minutes. R10 is also relatively efficient at around 55-60 minutes.
+
+2.Totalordervaluepercustomer and Customer_cancellations
+
+Identification of High-Value Customers (HVCs):
+
+Customers C5 (total value ~420) and C15 (total value ~400) are your most valuable customers by a significant margin. They contribute a large portion of the revenue.
+
+Identification of At-Risk/Dissatisfied Customers:
+
+Customer C7 has the lowest order value (around 20) and is the only customer who has cancelled orders (2 cancellations).
+
+
+The combination of very low order value and multiple cancellations strongly suggests that C7 is a churned or churning customer. They likely had a very poor initial experience, cancelled their orders, and have not returned. This is a critical failure in the customer journey.
+
+3.PeakorderHours:
+The demand pattern is very clear with two main peaks:
+
+Lunch Rush: A sharp peak around 12:00 PM (hour 12).
+
+Dinner Rush: Another, slightly higher peak around 6:00 PM (hour 18).
+
+There is also a smaller, late-night spike around 11:00 PM (hour 23).
+
+Off-Peak Lulls: The quietest period is the mid-afternoon, specifically around 2:00 PM - 3:00 PM (hours 14-15).
+
